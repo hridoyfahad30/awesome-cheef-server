@@ -1,0 +1,21 @@
+[  
+    {"id":1,"chefPicture":"https://example.com/chef1.jpg","chefName":"John Doe",    "yearsOfExperience": 10,"numOfRecipes": 50,"likes": 1000},
+    
+    {"id": 2,"chefPicture":"https://example.com/chef2.jpg","chefName":"Jane Smith",    "yearsOfExperience": 7,"numOfRecipes": 30,"likes": 500},
+    
+    {"id": 3,"chefPicture":"https://example.com/chef3.jpg","chefName":"Bob Johnson",    "yearsOfExperience": 5,"numOfRecipes": 20,"likes": 200},
+    
+    {"id": 4,"chefPicture":"https://example.com/chef4.jpg","chefName":"Sarah Lee",    "yearsOfExperience": 8,"numOfRecipes": 40,"likes": 800}, 
+    
+    {"id": 5,"chefPicture":"https://example.com/chef5.jpg","chefName":"David Kim",    "yearsOfExperience": 12,"numOfRecipes": 60,"likes": 1200},
+    
+    {"id": 6,"chefPicture":"https://example.com/chef6.jpg","chefName":"Karen Chan",    "yearsOfExperience": 3,"numOfRecipes": 10,"likes": 100},
+    
+    {"id": 7,"chefPicture":"https://example.com/chef7.jpg","chefName":"Mike Lee",    "yearsOfExperience": 6,"numOfRecipes": 25,"likes": 300},
+    
+    {"id": 8,"chefPicture":"https://example.com/chef8.jpg","chefName":"Tina Nguyen",    "yearsOfExperience": 9,"numOfRecipes": 35,"likes": 700},
+    
+    {"id": 9,"chefPicture":"https://example.com/chef9.jpg","chefName":"Chris Hernandez",    "yearsOfExperience": 4,"numOfRecipes": 15,"likes": 150},
+    
+    {"id": 10,"chefPicture":"https://example.com/chef10.jpg","chefName":"Laura Kim",    "yearsOfExperience": 2,"numOfRecipes": 5,"likes": 50}
+]
