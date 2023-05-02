@@ -27,7 +27,14 @@ app.get('/chef/:id', (req, res) => {
 
 app.get('/all-recipes', (req, res)=> {
         res.send(allRecipes);
-} )
+} );
+
+app.get('/chef-recipe/:id', (req, res) => {
+    const id = parseInt(req.params.id)
+
+    const recipe = allRecipes.filter(c => c.categoryId == id)
+        res.send(recipe)
+});
 
 
 app.listen(port, ()=> {
