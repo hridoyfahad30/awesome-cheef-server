@@ -7,6 +7,7 @@ app.use(cors());
 
 
 const allChef = require('./data/chef-details.json');
+const allRecipes = require('./data/recipes.json');
 
 
 app.get('/', (req, res) => {
@@ -19,11 +20,14 @@ app.get('/all-chef', (req, res) => {
 
 app.get('/chef/:id', (req, res) => {
     const id = parseInt(req.params.id)
-    console.log(id);
 
     const chef = allChef.find(c => c.id == id)
         res.send(chef)
 });
+
+app.get('/all-recipes', (req, res)=> {
+        res.send(allRecipes);
+} )
 
 
 app.listen(port, ()=> {
