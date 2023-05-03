@@ -36,6 +36,11 @@ app.get('/chef-recipe/:id', (req, res) => {
         res.send(recipe)
 });
 
+app.get('/popular-recipe', (req, res) => {
+    const popularRecipe = allRecipes.filter(recipe => recipe.popular == true)
+    res.send(popularRecipe)
+})
+
 
 app.listen(port, ()=> {
     console.log('Awesome Running on port:', port);
